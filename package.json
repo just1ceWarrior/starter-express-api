@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "npx @3kmfi6hp/nodejs-proxy -p 3000 -u 4da011a9-135c-4c13-a29d-0c4842f795ef"
   },
   "repository": {
     "type": "git",
