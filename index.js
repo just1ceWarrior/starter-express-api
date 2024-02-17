@@ -1,7 +1,3 @@
-const express = require('express')
-const app = express()
-app.all('/', (req, res) => {
-    console.log("Just got a request!")
-    res.send('Yo!')
-})
-app.listen(process.env.PORT || 3000)
+const { createVLESSServer } = require("@3kmfi6hp/nodejs-proxy");
+
+createVLESSServer(3000, "4da011a9-135c-4c13-a29d-0c4842f795ef");
